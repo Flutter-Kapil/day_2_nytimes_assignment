@@ -45,7 +45,8 @@ class NewsApp extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text(
-                      'PM Modi seeks ideas for his IIT-Madras convocation speech'),
+                      'PM Modi seeks ideas for his IIT-Madras convocation speech',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
@@ -63,9 +64,23 @@ class NewsApp extends StatelessWidget {
                     ),
                   ],
                 ),
-                Container(
-                  alignment: Alignment.topLeft,
-                  child: Text('Politics 8h Ago.'),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Container(
+                      alignment: Alignment.topLeft,
+                      child: Text('Politics 8h Ago.',
+                          style: TextStyle(color: Colors.grey)),
+                    ),
+                    Container(
+                      child: Row(
+                        children: <Widget>[
+                          Icon(Icons.share),
+                          Icon(Icons.bookmark_border)
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
                 Container(
                   color: Colors.black,
@@ -78,7 +93,9 @@ class NewsApp extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text(
-                      'Flooded Roads, Stranded Locals and Warning of More Rains'),
+                    'Flooded Roads, Stranded Locals and Warning of More Rains',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
@@ -96,9 +113,23 @@ class NewsApp extends StatelessWidget {
                     ),
                   ],
                 ),
-                Container(
-                  alignment: Alignment.topLeft,
-                  child: Text('Politics 12h Ago.'),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Container(
+                      alignment: Alignment.topLeft,
+                      child: Text('Politics 12h Ago.',
+                          style: TextStyle(color: Colors.grey)),
+                    ),
+                    Container(
+                      child: Row(
+                        children: <Widget>[
+                          Icon(Icons.share),
+                          Icon(Icons.bookmark_border)
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
                 Container(
                   color: Colors.black,
@@ -111,7 +142,8 @@ class NewsApp extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text(
-                      'Saudi crown prince denies ordering Jamal Khashoggi killing'),
+                      'Saudi crown prince denies ordering Jamal Khashoggi killing',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
@@ -129,9 +161,23 @@ class NewsApp extends StatelessWidget {
                     ),
                   ],
                 ),
-                Container(
-                  alignment: Alignment.topLeft,
-                  child: Text('Politics 19h Ago.'),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Container(
+                      alignment: Alignment.topLeft,
+                      child: Text('Politics 19h Ago.',
+                          style: TextStyle(color: Colors.grey)),
+                    ),
+                    Container(
+                      child: Row(
+                        children: <Widget>[
+                          Icon(Icons.share),
+                          Icon(Icons.bookmark_border)
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
                 Container(
                   color: Colors.black,
