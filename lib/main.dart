@@ -36,40 +36,38 @@ class NewsApp extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       body: SafeArea(
-        child: Container(
-          child: Column(
-            children: <Widget>[
-              Column(
-                children: <Widget>[
-                  Container(
-                    alignment: Alignment.topLeft,
-                    child: Text(
-                        'PM Modi seeks ideas for his IIT-Madras convocation speech'),
-                  ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: <Widget>[
-                      Container(
-                        width: 250,
-                        child: Text(
-                          "In Chennai, PM Modi would also participate in the prize distribution ceremony of the Singapore-India Hackathon.",
-                        ),
+        child: Column(
+          children: <Widget>[
+            Column(
+              children: <Widget>[
+                Container(
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                      'PM Modi seeks ideas for his IIT-Madras convocation speech'),
+                ),
+                Row(
+                  mainAxisSize: MainAxisSize.max,
+                  children: <Widget>[
+                    Container(
+                      width: 250,
+                      child: Text(
+                        "In Chennai, PM Modi would also participate in the prize distribution ceremony of the Singapore-India Hackathon.",
                       ),
-                      Container(
-                        width: 150,
-                        child: Image.network(
-                            'https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/09/29/Pictures/pm-narendra-modi-smart-cities-mission_ee684f10-e2a8-11e9-93be-d8edb8f85faf.jpg'),
-                      ),
-                    ],
-                  ),
-                  Container(
-                    alignment: Alignment.topLeft,
-                    child: Text('Politics 8h Ago.'),
-                  ),
-                ],
-              ),
-            ],
-          ),
+                    ),
+                    Container(
+                      width: 150,
+                      child: Image.network(
+                          'https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/09/29/Pictures/pm-narendra-modi-smart-cities-mission_ee684f10-e2a8-11e9-93be-d8edb8f85faf.jpg'),
+                    ),
+                  ],
+                ),
+                Container(
+                  alignment: Alignment.topLeft,
+                  child: Text('Politics 8h Ago.'),
+                ),
+              ],
+            ),
+          ],
         ),
       ),
     );
