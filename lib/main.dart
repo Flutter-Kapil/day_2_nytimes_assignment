@@ -67,6 +67,10 @@ class NewsApp extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: Text('Politics 8h Ago.'),
                 ),
+                Container(
+                  color: Colors.black,
+                  height: 2.0,
+                ),
               ],
             ),
             Column(
@@ -96,6 +100,10 @@ class NewsApp extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: Text('Politics 8h Ago.'),
                 ),
+                Container(
+                  color: Colors.black,
+                  height: 2.0,
+                ),
               ],
             ),
             Column(
@@ -124,6 +132,10 @@ class NewsApp extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text('Politics 8h Ago.'),
+                ),
+                Container(
+                  color: Colors.black,
+                  height: 2.0,
                 ),
               ],
             ),
