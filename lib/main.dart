@@ -78,7 +78,7 @@ class NewsApp extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text(
-                      'PM Modi seeks ideas for his IIT-Madras convocation speech'),
+                      'Flooded Roads, Stranded Locals and Warning of More Rains'),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
@@ -86,19 +86,19 @@ class NewsApp extends StatelessWidget {
                     Container(
                       width: 250,
                       child: Text(
-                        "In Chennai, PM Modi would also participate in the prize distribution ceremony of the Singapore-India Hackathon.",
+                        "Patna Nagar Nigam personnel, donning yellow raincoats, could be seen at various spots trying to unclog the manholes that have been choked by polythene and debris",
                       ),
                     ),
                     Container(
                       width: 150,
                       child: Image.network(
-                          'https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/09/29/Pictures/pm-narendra-modi-smart-cities-mission_ee684f10-e2a8-11e9-93be-d8edb8f85faf.jpg'),
+                          'https://images.news18.com/ibnlive/uploads/2019/09/Flood-Cartoon1.jpg'),
                     ),
                   ],
                 ),
                 Container(
                   alignment: Alignment.topLeft,
-                  child: Text('Politics 8h Ago.'),
+                  child: Text('Politics 12h Ago.'),
                 ),
                 Container(
                   color: Colors.black,
@@ -111,7 +111,7 @@ class NewsApp extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text(
-                      'PM Modi seeks ideas for his IIT-Madras convocation speech'),
+                      'Saudi crown prince denies ordering Jamal Khashoggi killing'),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
@@ -119,19 +119,19 @@ class NewsApp extends StatelessWidget {
                     Container(
                       width: 250,
                       child: Text(
-                        "In Chennai, PM Modi would also participate in the prize distribution ceremony of the Singapore-India Hackathon.",
+                        "Some think that I should know what 3 million people working for the Saudi government do daily.",
                       ),
                     ),
                     Container(
                       width: 150,
                       child: Image.network(
-                          'https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/09/29/Pictures/pm-narendra-modi-smart-cities-mission_ee684f10-e2a8-11e9-93be-d8edb8f85faf.jpg'),
+                          'https://www.thehindu.com/news/national/73kpsr/article26333229.ece/ALTERNATES/FREE_460/TH22KRASALMAN'),
                     ),
                   ],
                 ),
                 Container(
                   alignment: Alignment.topLeft,
-                  child: Text('Politics 8h Ago.'),
+                  child: Text('Politics 19h Ago.'),
                 ),
                 Container(
                   color: Colors.black,
