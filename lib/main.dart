@@ -31,7 +31,8 @@ class NewsApp extends StatelessWidget {
         title: Center(
           child: Text(
             'New York Times',
-            style: TextStyle(color: Colors.black),
+            style: TextStyle(
+                color: Colors.black, fontFamily: 'PTSerifCaption-Regular.ttf'),
           ),
         ),
         backgroundColor: Colors.white,
@@ -46,7 +47,8 @@ class NewsApp extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: Text(
                       'PM Modi seeks ideas for his IIT-Madras convocation speech',
-                      style: TextStyle(fontWeight: FontWeight.bold)),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
@@ -67,13 +69,18 @@ class NewsApp extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Container(
-                      alignment: Alignment.topLeft,
-                      child: Text('Politics 8h Ago.',
-                          style: TextStyle(color: Colors.grey)),
+                    Expanded(
+                      flex: 5,
+                      child: Container(
+                        alignment: Alignment.topLeft,
+                        child: Text('Politcis  Politics 8h Ago.',
+                            style: TextStyle(color: Colors.grey)),
+                      ),
                     ),
-                    Container(
+                    Expanded(
+                      flex: 1,
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Icon(Icons.share),
                           Icon(Icons.bookmark_border)
@@ -94,7 +101,7 @@ class NewsApp extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: Text(
                     'Flooded Roads, Stranded Locals and Warning of More Rains',
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                   ),
                 ),
                 Row(
@@ -116,13 +123,18 @@ class NewsApp extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Container(
-                      alignment: Alignment.topLeft,
-                      child: Text('Politics 12h Ago.',
-                          style: TextStyle(color: Colors.grey)),
+                    Expanded(
+                      flex: 5,
+                      child: Container(
+                        alignment: Alignment.topLeft,
+                        child: Text('Politics 12h Ago.',
+                            style: TextStyle(color: Colors.grey)),
+                      ),
                     ),
-                    Container(
+                    Expanded(
+                      flex: 1,
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           Icon(Icons.share),
                           Icon(Icons.bookmark_border)
@@ -143,38 +155,55 @@ class NewsApp extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: Text(
                       'Saudi crown prince denies ordering Jamal Khashoggi killing',
-                      style: TextStyle(fontWeight: FontWeight.bold)),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
                 ),
                 Row(
                   mainAxisSize: MainAxisSize.max,
                   children: <Widget>[
-                    Container(
-                      width: 250,
-                      child: Text(
-                        "Some think that I should know what 3 million people working for the Saudi government do daily.",
+                    Expanded(
+                      flex: 2,
+                      child: Container(
+                        width: 250,
+                        margin: EdgeInsets.all(2.0),
+                        child: Text(
+                          "Some think that I should know what 3 million people working for the Saudi government do daily.",
+                        ),
                       ),
                     ),
-                    Container(
-                      width: 150,
-                      child: Image.network(
-                          'https://www.thehindu.com/news/national/73kpsr/article26333229.ece/ALTERNATES/FREE_460/TH22KRASALMAN'),
+                    Expanded(
+                      flex: 1,
+                      child: Container(
+                        width: 150,
+                        margin: EdgeInsets.all(12.0),
+                        child: Image.network(
+                            'https://www.thehindu.com/news/national/73kpsr/article26333229.ece/ALTERNATES/FREE_460/TH22KRASALMAN'),
+                      ),
                     ),
                   ],
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Container(
-                      alignment: Alignment.topLeft,
-                      child: Text('Politics 19h Ago.',
-                          style: TextStyle(color: Colors.grey)),
+                    Expanded(
+                      flex: 4,
+                      child: Container(
+                        alignment: Alignment.topLeft,
+                        child: Text('Politics 19h Ago.',
+                            style: TextStyle(color: Colors.grey)),
+                      ),
                     ),
-                    Container(
-                      child: Row(
-                        children: <Widget>[
-                          Icon(Icons.share),
-                          Icon(Icons.bookmark_border)
-                        ],
+                    Expanded(
+                      flex: 1,
+                      child: Container(
+                        margin: EdgeInsets.all(2.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: <Widget>[
+                            Icon(Icons.share),
+                            Icon(Icons.bookmark_border)
+                          ],
+                        ),
                       ),
                     ),
                   ],
